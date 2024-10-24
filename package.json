@@ -1,0 +1,58 @@
+{
+  "name": "unfairprice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 5003",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "aws-sdk": "^2.1479.0",
+    "axios": "^1.5.1",
+    "bootstrap": "^5.3.2",
+    "bootstrap-vue": "^2.23.1",
+    "core-js": "^3.8.3",
+    "sdk": "^0.5.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.3",
+    "vue-use-sound": "^1.1.1",
+    "vuetify": "^3.3.21"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@types/axios": "^0.14.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.0.3",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
